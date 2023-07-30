@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Opening Party",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A quaerat nesciunt fuga consequuntur unde necessitatibus natus sunt, quasi perspiciatis dolorem saepe perferendis mollitia doloremque quibusdam veniam qui dicta laboriosam asperiores, eius tempore eaque dignissimos dolor? Magnam officia vero ea quaerat beatae laborum consequatur tempore, fugit, corporis nostrum enim natus pariatur harum facere iure debitis quisquam eos, assumenda itaque est vitae optio quam saepe! Temporibus sunt id aut vitae in! Corrupti perspiciatis ullam cupiditate, nam voluptas dolor ipsa minus. Porro dolorem id voluptates dolor fugit error ullam quam eos quis. Iure itaque obcaecati sed fugit voluptates, officia suscipit, repellendus, quo illum blanditiis laborum recusandae! Dolorem enim provident impedit ab ducimus harum, possimus, doloribus mollitia assumenda quas adipisci laboriosam. Tempora obcaecati fugiat incidunt, ratione, necessitatibus, nostrum cum neque eos vel beatae fuga saepe rem quae reprehenderit? Animi maiores asperiores ipsa corrupti iusto accusamus facilis in est perferendis, deleniti explicabo aliquid! Fuga, odio.",
+      "author": "samuel",
+      "id": 2
+    },
+    {
+      "title": "Web Development Tips",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A quaerat nesciunt fuga consequuntur unde necessitatibus natus sunt, quasi perspiciatis dolorem saepe perferendis mollitia doloremque quibusdam veniam qui dicta laboriosam asperiores, eius tempore eaque dignissimos dolor? Magnam officia vero ea quaerat beatae laborum consequatur tempore, fugit, corporis nostrum enim natus pariatur harum facere iure debitis quisquam eos, assumenda itaque est vitae optio quam saepe! Temporibus sunt id aut vitae in! Corrupti perspiciatis ullam cupiditate, nam voluptas dolor ipsa minus. Porro dolorem id voluptates dolor fugit error ullam quam eos quis. Iure itaque obcaecati sed fugit voluptates, officia suscipit, repellendus, quo illum blanditiis laborum recusandae! Dolorem enim provident impedit ab ducimus harum, possimus, doloribus mollitia assumenda quas adipisci laboriosam. Tempora obcaecati fugiat incidunt, ratione, necessitatibus, nostrum cum neque eos vel beatae fuga saepe rem quae reprehenderit? Animi maiores asperiores ipsa corrupti iusto accusamus facilis in est perferendis, deleniti explicabo aliquid! Fuga, odio.",
+      "author": "samuel",
+      "id": 3
+    }
+  ]
+}

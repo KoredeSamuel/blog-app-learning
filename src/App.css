@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  padding: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cac7c7;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  transition: .3s;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+a.btn{
   color: white;
+  background-color: #f1356d;
+  border: 1px solid #f1356d;
+  border-radius: 4px;
+  transition: .3s;
 }
+a.btn:hover{
+  color: #f1356d;
+  background-color: white;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 20px;
+}
+.Home button{
+  background-color: #f1356d;
+  color: white;
+  border: 1px solid #f1356d;
+  padding: 5px 7px;
+  font-size: 17px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+.Home button:hover{
+  background-color: white;
+  color: #f1356d;
+}
+.blog-list h2{
+  margin-bottom: 20px;
+}
+.blog-preview{
+  width: 100%;
+  border: 1px solid #cac7c7;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  transition: .3s;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview:hover{
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2{
+  margin-bottom: 10px;
+}
+.blog-preview button{
+  margin: 10px 0;
+}
+.blog-details .article h2{
+  margin-bottom: 15px;
+}
+.blog-details .article .author{
+  font-weight: bold;
+  color: #f1356d;
+}
+.blog-details .article .body{
+  text-align: justify;
+  margin-top: 10px;
+}
+.blog-details .article .body p{
+  line-height: 23px;
+  font-size: 17px;
+}
+.blog-details .buttons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* background-color: red; */
+  margin-top: 10px;
+  height: 30px;
+}
+.blog-details a{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: #f1356d;
+  padding: 3px 10px;
+  width: fit-content;
+  border-radius: 1px;
+  border: 1px solid #f1356d;
+  transition: .3s;
+}
+.blog-details a:hover, .blog-details button:hover{
+  background-color: white;
+  color: #f1356d;
+}
+.blog-details button{
+  height: 100%;
+  padding: 0 10px;
+  background-color: #f1356d;
+  border: 1px solid #f1356d;
+  color: white;
+  font-size: 17px;
+  transition: .3s;
+}
+/* --- create blog styles --- */
+.create{
+  width: 600px;
+  margin: 0 auto;
+}
+.create h2{
+  margin-bottom: 15px;
+}
+.create form label{
+  line-height: 30px;
+  margin: 5px 0;
+  display: block;
+}
+.create form input, 
+.create form select,
+.create form textarea{
+  width: 100%;
+  border: 1px solid silver;
+  outline: none;
+  font-size: 16px;
+  display: block;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+.create form button {
+  background-color: #f1356d;
+  color: white;
+  border: 1px solid #f1356d;
+  margin-top: 15px;
+  padding: 6px 10px;
+  font-size: 16px;
+  transition: .3s;
+}
+.create form button:hover{
+  background-color: white;
+  color: #f1356d;
+}
+.create form button:disabled{
+  background-color: #eb6b91;
+  border: 1px solid #eb6b91;
 }
