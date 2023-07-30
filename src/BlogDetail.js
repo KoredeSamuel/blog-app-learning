@@ -11,7 +11,7 @@ const BlogDetail = () => {
     // const {data: blog, error, isPending} = useFetch('http://localhost:8000/blogs/' + id);
     useEffect(() =>{
         setTimeout(() =>{
-            fetch('http://localhost:8000/blogs/' + id)
+            fetch('https://blog-endpoint.onrender.com/blogs/' + id)
                 .then(res =>{
                     return res.json();
                 })
@@ -23,7 +23,7 @@ const BlogDetail = () => {
     }, [])
 
     const handleClick = () =>{
-        fetch('http://localhost:8000/blogs/' + blog.id, {
+        fetch('https://blog-endpoint.onrender.com/blogs/' + blog.id, {
             method: 'DELETE'
         }).then(() =>{
             history.push('/');

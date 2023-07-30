@@ -15,7 +15,7 @@ const Create = () => {
         const blog = { title, body, author };
         console.log(blog);
         setTimeout(() =>{
-            fetch('http://localhost:8000/blogs', {
+            fetch('https://blog-endpoint.onrender.com/blogs', {
                 method: 'POST',
                 headers : {"Content-Type": "application/json"},
                 body : JSON.stringify(blog)
